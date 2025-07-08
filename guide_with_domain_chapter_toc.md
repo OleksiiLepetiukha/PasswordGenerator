@@ -188,6 +188,29 @@ Run the following command to generate and configure SSL using Certbot:
 sudo certbot --nginx -d checkout.clientstore.com
 ```
 
+Expected output:
+```
+Saving debug log to /var/log/letsencrypt/letsencrypt.log
+Requesting a certificate for checkouts.modelumiere.com
+
+Successfully received certificate.
+Certificate is saved at: /etc/letsencrypt/live/checkouts.modelumiere.com/fullchain.pem
+Key is saved at:         /etc/letsencrypt/live/checkouts.modelumiere.com/privkey.pem
+This certificate expires on 2025-10-03.
+These files will be updated when the certificate renews.
+Certbot has set up a scheduled task to automatically renew this certificate in the background.
+
+Deploying certificate
+Successfully deployed certificate for checkouts.modelumiere.com to /etc/nginx/sites-enabled/checkout-frontend-modelumiere.com
+Congratulations! You have successfully enabled HTTPS on https://checkouts.modelumiere.com
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+If you like Certbot, please consider supporting our work by:
+ * Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
+ * Donating to EFF:                    https://eff.org/donate-le
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+```
+
 ### Step 6: Restart NGINX
 
 ```bash
