@@ -10,14 +10,14 @@
    - [Step 3: Set Up Admin API Scopes](#step-3-set-up-admin-api-scopes)
    - [Step 4: Configure Storefront API Scopes](#step-4-configure-storefront-api-scopes)
    - [Step 5: Install and Save Access Tokens](#step-5-install-and-save-access-tokens)
-3. [Chapter 2: Registering Your Shop in the Checkout Backend](#chapter-2-registering-your-shop-in-the-checkout-backend)
+4. [Chapter 3: Registering Your Shop in the Checkout Backend](#chapter-3-registering-your-shop-in-the-checkout-backend)
    - [API Configuration](#api-configuration)
    - [Verification](#verification)
-4. [Chapter 3: Implementing the Custom Checkout Button](#chapter-3-implementing-the-custom-checkout-button)
+5. [Chapter 3: Implementing the Custom Checkout Button](#chapter-3-implementing-the-custom-checkout-button)
    - [Step 1: Access Theme Editor](#step-1-access-theme-editor)
    - [Step 2: Edit Theme Code](#step-2-edit-theme-code)
    - [Step 3: Locate and Replace Checkout Button](#step-3-locate-and-replace-checkout-button)
-5. [Testing the Integration](#testing-the-integration)
+6. [Testing the Integration](#testing-the-integration)
    - [Flow](#flow)
 
 
