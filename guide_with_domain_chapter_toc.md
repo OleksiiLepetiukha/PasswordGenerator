@@ -12,7 +12,7 @@
    - [Step 5: Install and Save Access Tokens](#step-5-install-and-save-access-tokens)
 3. [Chapter 2: Adding a Custom Checkout Domain (NGINX Setup)](#chapter-2-adding-a-custom-checkout-domain-nginx-setup)
    - [Step 1: Create DNS Record](#step-1-create-dns-record)
-   - [Step 2: Create NGINX Config](#step-2-create-nginx-config)
+   - [Step 2: Create NGINX Config](#step-2-create-nginx-configuration)
    - [Step 3: Enable Config](#step-3-enable-config)
    - [Step 4: Test NGINX](#step-4-test-nginx)
    - [Step 5: Generate SSL Certificate](#step-5-generate-ssl-certificate)
