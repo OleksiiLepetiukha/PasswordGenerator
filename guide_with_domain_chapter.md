@@ -361,7 +361,6 @@ Find your existing checkout button implementation and replace it with the follow
 6. Fill in all the requested information, choose the required Payment System, press 'Pay with {payment_system}'
 
 Since the system is now in the sandbox mode, there will be no actual charge performed, for Curo (iDeal, bancontact, klarna, etc), you should first send the webhook (callback) for Success (200) using the respective radiobutton and then press the 'Submit' button -> then you should be redirected to the 'thank you' page.
-For PayPal - just log in to your account (could be sandbox as well), and proceed with the transaction, the redirect will be handled automatically.
 
 Once the payment is processed - the customer's cart will be cleared and the new order on the shopify side will be created.
 
