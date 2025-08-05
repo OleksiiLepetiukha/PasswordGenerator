@@ -115,6 +115,12 @@ Value: 134.209.199.211
 
 ### Step 2: Create NGINX Configuration
 
+Login to the server:
+```
+ssh root@134.209.199.211
+```
+Enter the password for the server.
+
 Create a new file in `/etc/nginx/sites-available/`:
 
 ```bash
@@ -157,6 +163,8 @@ server {
     }
 }
 ```
+
+Click '^O' to save -> click 'Enter' to confirm -> click '^X' to exit
 
 ### Step 3: Enable Configuration
 
@@ -223,7 +231,7 @@ sudo systemctl restart nginx
 ### API Configuration
 Make a POST request to create your shop configuration:
 
-**Endpoint**: `https://api.guillermo.click/api/shops/`
+**Endpoint**: `https://api.nordicboutiqueco-de.com/docs#/shops/create_shop_api_shops__post`
 
 **Request Body**:
 ```json
@@ -238,13 +246,10 @@ Make a POST request to create your shop configuration:
         "foreground": "oklch(0.145 0 0)",
         "input": "oklch(0.922 0 0)",
         "muted": "oklch(0.97 0 0)",
-        "mutedForeground": "oklch(0.556 0 0)",
         "popover": "oklch(1 0 0)",
-        "popoverForeground": "oklch(0.145 0 0)",
         "primary": "oklch(0.205 0 0)",
         "ring": "oklch(0.708 0 0)",
-        "secondary": "oklch(0.97 0 0)",
-        "secondaryForeground": "oklch(0.205 0 0)"
+        "secondary": "oklch(0.97 0 0)"
     },
     "currency": "EUR",
     "is_active": true,
@@ -267,7 +272,7 @@ Make a POST request to create your shop configuration:
                     "paypal": true
                 },
                 "merchant_id": "{CURO_MERCHANT_ID}",
-                "site_id": "{CURO_SITE_ID"
+                "site_id": "{CURO_SITE_ID}"
             },
             "enabled": true
         }
@@ -277,7 +282,16 @@ Make a POST request to create your shop configuration:
     "shopify_access_token": "{ADMIN_API_TOKEN}",
     "shopify_store_url": "https://sti4g0-wr.myshopify.com",
     "frontend_url": "https://checkouts.modelumiere.com",
-    "shopify_storefront_token": "{STOREFRONT_API_TOKEN}"
+    "shopify_storefront_token": "{STOREFRONT_API_TOKEN}",
+    "analytics": {},
+    "links":
+     {
+      "refund": "link to return/refund policy",
+      "shipping": "link to shipment policy",
+      "privacy": "link to privacy policy",
+      "terms": "link to terms and conditions",
+      "contact": "link to contact details"
+     }
 }
 ```
 
