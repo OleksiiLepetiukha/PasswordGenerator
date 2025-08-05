@@ -294,26 +294,26 @@ Make a POST request to create your shop configuration:
      }
 }
 ```
-**Configurations:**
-**Colors**
-background — page background
-foreground — main text
-primary — "pay", "try again" (error page) buttons, active elements
-secondary — secondary buttons, inactive elements
-muted — muted background, inactive elements (e.g., disabled buttons)
-card — card background on error page
-popover — background of the country select popover
-accent — highlight on hover for buttons, country select, "apply"
-destructive — red for errors: icon/text on error page, payment error
-border — borders for inputs, cards, popovers
-input — background/border for inputs, checkboxes (Delivery/Contact)
+**Configurations:**  
+**Colors**  
+background — page background  
+foreground — main text  
+primary — "pay", "try again" (error page) buttons, active elements  
+secondary — secondary buttons, inactive elements  
+muted — muted background, inactive elements (e.g., disabled buttons)  
+card — card background on error page  
+popover — background of the country select popover  
+accent — highlight on hover for buttons, country select, "apply"  
+destructive — red for errors: icon/text on error page, payment error  
+border — borders for inputs, cards, popovers  
+input — background/border for inputs, checkboxes (Delivery/Contact)  
 
-**Languages**
-Dutch - nl
-German - de
-English - en
-Danish - da
-Swedish - sv
+**Languages**  
+Dutch - nl  
+German - de  
+English - en  
+Danish - da  
+Swedish - sv  
 
 ### Verification
 After making the request, verify that response contains the correct shop configuration data.
