@@ -235,15 +235,15 @@ Click "New Request"
 Make a request to create your shop configuration:
 
 **Endpoints**:  
-POST `https://api.nordicboutiqueco-de.com/api/shops/` - Create Shop  
-PUT `https://api.nordicboutiqueco-de.com/api/shops/{shop_domain}` - Update Shop  
-PUT `https://api.nordicboutiqueco-de.com/api/shops/{shop_domain}/curo_methods` - Update Curo Payment Methods  
-PUT `https://api.nordicboutiqueco-de.com/api/shops/{shop_domain}/payment_systems/{payment_system}` - Update Payment System Config  
-PUT `https://api.nordicboutiqueco-de.com/api/shops/{shop_domain}/tokens` - Update Shop Tokens  
-GET `https://api.nordicboutiqueco-de.com/api/shops/{shop_domain}/config` - Get Shop Config  
-GET `https://api.nordicboutiqueco-de.com/api/shops/{shop_domain}` - Get Shop  
+POST ```https://api.nordicboutiqueco-de.com/api/shops/``` - Create Shop  
+PUT ```https://api.nordicboutiqueco-de.com/api/shops/{shop_domain}``` - Update Shop  
+PUT ```https://api.nordicboutiqueco-de.com/api/shops/{shop_domain}/curo_methods``` - Update Curo Payment Methods  
+PUT ```https://api.nordicboutiqueco-de.com/api/shops/{shop_domain}/payment_systems/{payment_system}``` - Update Payment System Config  
+PUT ```https://api.nordicboutiqueco-de.com/api/shops/{shop_domain}/tokens``` - Update Shop Tokens  
+GET ```https://api.nordicboutiqueco-de.com/api/shops/{shop_domain}/config``` - Get Shop Config  
+GET ```https://api.nordicboutiqueco-de.com/api/shops/{shop_domain}``` - Get Shop  
 
-In '**Authorization**' Tab, choose 'Auth type' '**Bearer token**' and use this token - `a87dd38eb211dbe024a64d5c4fb9297b`  
+In '**Authorization**' Tab, choose 'Auth type' '**Bearer token**' and use this token - ```a87dd38eb211dbe024a64d5c4fb9297b```  
 Go to '**Body**' Tab, choose the option '**row**' and type '**JSON**'  
 Paste the config JSON  
 Click on "Send" button 
