@@ -243,9 +243,9 @@ PUT `https://api.nordicboutiqueco-de.com/api/shops/{shop_domain}/tokens` - Updat
 GET `https://api.nordicboutiqueco-de.com/api/shops/{shop_domain}/config` - Get Shop Config  
 GET `https://api.nordicboutiqueco-de.com/api/shops/{shop_domain}` - Get Shop  
 
-In **Authorization** Tab, choose 'Auth type' **Bearer token** and use this token - a87dd38eb211dbe024a64d5c4fb9297b  
-Go to **Body** Tab, choose the option '**row**' and type **JSON**  
-Paste the config JSON 
+In '**Authorization**' Tab, choose 'Auth type' '**Bearer token**' and use this token - `a87dd38eb211dbe024a64d5c4fb9297b`  
+Go to '**Body**' Tab, choose the option '**row**' and type '**JSON**'  
+Paste the config JSON  
 Click on "Send" button 
 
 **Request Body**:
