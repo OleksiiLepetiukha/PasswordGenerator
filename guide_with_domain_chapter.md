@@ -231,8 +231,8 @@ sudo systemctl restart nginx
 ### API Configuration  
 Use **Postman** - `https://web.postman.co/` for sending requests to the Backend  
 <img width="900" height="84" alt="Screenshot 2025-08-07 at 16 11 49" src="https://github.com/user-attachments/assets/efac3931-9161-4fea-819e-4b4e05de8e86" />  
-Click "New Requets"
-Make a POST request to create your shop configuration:
+Click "New Request"  
+Make a request to create your shop configuration:
 
 **Endpoints**:  
 POST `https://api.nordicboutiqueco-de.com/api/shops/` - Create Shop  
@@ -242,6 +242,11 @@ PUT `https://api.nordicboutiqueco-de.com/api/shops/{shop_domain}/payment_systems
 PUT `https://api.nordicboutiqueco-de.com/api/shops/{shop_domain}/tokens` - Update Shop Tokens  
 GET `https://api.nordicboutiqueco-de.com/api/shops/{shop_domain}/config` - Get Shop Config  
 GET `https://api.nordicboutiqueco-de.com/api/shops/{shop_domain}` - Get Shop  
+
+In **Authorization** Tab, choose 'Auth type' **Bearer token** and use this token - a87dd38eb211dbe024a64d5c4fb9297b  
+Go to **Body** Tab, choose the option '**row**' and type **JSON**  
+Paste the config JSON 
+Click on "Send" button 
 
 **Request Body**:
 ```json
