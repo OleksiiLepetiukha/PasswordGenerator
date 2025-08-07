@@ -231,7 +231,14 @@ sudo systemctl restart nginx
 ### API Configuration
 Make a POST request to create your shop configuration:
 
-**Endpoint**: `https://api.nordicboutiqueco-de.com/docs#/shops/create_shop_api_shops__post`
+**Endpoints**:  
+POST `https://api.nordicboutiqueco-de.com/api/shops/` - Create Shop  
+PUT `https://api.nordicboutiqueco-de.com/api/shops/{shop_domain}` - Update Shop  
+PUT `https://api.nordicboutiqueco-de.com/api/shops/{shop_domain}/curo_methods` - Update Curo Payment Methods  
+PUT `https://api.nordicboutiqueco-de.com/api/shops/{shop_domain}/payment_systems/{payment_system}` - Update Payment System Config  
+PUT `https://api.nordicboutiqueco-de.com/api/shops/{shop_domain}/tokens` - Update Shop Tokens  
+GET `https://api.nordicboutiqueco-de.com/api/shops/{shop_domain}/config` - Get Shop Config  
+GET `https://api.nordicboutiqueco-de.com/api/shops/{shop_domain}` - Get Shop  
 
 **Request Body**:
 ```json
