@@ -261,10 +261,13 @@ Click on "Send" button
         "foreground": "oklch(0.145 0 0)",
         "input": "oklch(0.922 0 0)",
         "muted": "oklch(0.97 0 0)",
+        "mutedForeground": "oklch(0.556 0 0)",
         "popover": "oklch(1 0 0)",
+        "popoverForeground": "oklch(0.145 0 0)",
         "primary": "oklch(0.205 0 0)",
         "ring": "oklch(0.708 0 0)",
-        "secondary": "oklch(0.97 0 0)"
+        "secondary": "oklch(0.97 0 0)",
+        "secondaryForeground": "oklch(0.205 0 0)"
     },
     "currency": "EUR",
     "is_active": true,
