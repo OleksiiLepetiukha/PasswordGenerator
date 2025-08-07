@@ -228,7 +228,10 @@ sudo systemctl restart nginx
 
 ## Chapter 3: Registering Your Shop in the Checkout Backend
 
-### API Configuration
+### API Configuration  
+Use **Postman** - `https://web.postman.co/` for sending requests to the Backend  
+<img width="900" height="84" alt="Screenshot 2025-08-07 at 16 11 49" src="https://github.com/user-attachments/assets/efac3931-9161-4fea-819e-4b4e05de8e86" />  
+Click "New Requets"
 Make a POST request to create your shop configuration:
 
 **Endpoints**:  
@@ -321,6 +324,8 @@ German - de
 English - en  
 Danish - da  
 Swedish - sv  
+French - fr  
+Norwegian - no
 
 ### Verification
 After making the request, verify that response contains the correct shop configuration data.
